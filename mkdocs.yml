@@ -3,21 +3,21 @@ site_name: RTEU Course Notes Templates
 docs_dir: docs  # Where to find the English markdown files
 site_dir: site  # Where to put the English HTML files
 site_author: 'Asst. Prof. Dr. Uğur CORUH'
-site_url: 'https://ucoruh.github.io/course-note-template/'
+site_url: 'https://kibrahimdemir.github.io/course-note-template/'
 
 site_description_en: >-
-    Course Notes Templates
+    RTEÜ COURSE TEMPLE
 
 site_description_tr: >-
-    Ders Notu Şablonu
+    DERS NOTLARIM
 
 # Repository
 repo_name: 'GitHub'
-repo_url: 'https://github.com/ucoruh/course-note-template'
+repo_url: 'https://github.com/kdemiribrahim/course-note-template'
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2022 Asst. Prof. Dr. Uğur CORUH
+copyright: Copyright &copy; 2021 - 2022 Asst. Prof. Dr. Uğur CORUH
 
 #theme:
 #    name: material
@@ -25,7 +25,7 @@ copyright: Copyright &copy; 2019 - 2022 Asst. Prof. Dr. Uğur CORUH
 #   favicon: images/favicon.png
 #   palette:
 #       primary: teal
-#       accent: pink
+#       accent: Orange
 #   language: en
 #   feature:
 #       tabs: true
@@ -208,11 +208,11 @@ plugins:
         en:
           name: English
           build: true
-          site_name: "RTEU Course Notes Templates (en)"
+          site_name: "RTEU CLASS HOMEWORK (en)"
         tr:
           name: Türkçe
           build: true
-          site_name: "RTEU Ders Notu Şablonu (tr)"
+          site_name: "RTEU Ders Notu içeriği (tr)"
       nav_translations:
         tr:
           Home: 'Ana Sayfa'
@@ -220,20 +220,7 @@ plugins:
           Course Modules: 'Ders Modülleri'
           Week-1 (Sample-1): 'Hafta-1 (Örnek-1)'
           Week-2 (Sample-2): 'Hafta-2 (Örnek-1)'
-          Week-3 (Sample-3): 'Hafta-3 (Örnek-1)'
-          Week-4 (Sample-4): 'Hafta-4 (Örnek-1)'
-          Week-5 (Sample-5): 'Hafta-5 (Örnek-1)'
-          Week-6 (Sample-6): 'Hafta-6 (Örnek-1)'
-          Week-7 (Sample-7): 'Hafta-7 (Örnek-1)'
-          Week-8 (Midterm): 'Hafta-8 (Vize)'
-          Week-9 (Sample-9): 'Hafta-9 (Örnek-1)'
-          Week-10 (Sample-10): 'Hafta-10 (Örnek-1)'
-          Week-11 (Sample-11): 'Hafta-11 (Örnek-1)'
-          Week-12 (Sample-12): 'Hafta-12 (Örnek-1)'
-          Week-13 (Sample-13): 'Hafta-13 (Örnek-1)'
-          Week-14 (Sample-14): 'Hafta-14 (Örnek-1)'
-          Week-15 (Sample-15): 'Hafta-15 (Örnek-1)'
-          Week-16 (Final): 'Hafta-16 (Final)'
+          
           License: 'Lisans'
           Resume: 'Özgeçmiş'
           Changelog: 'Geçmiş'
@@ -289,20 +276,7 @@ nav:
   - Course Modules:
     - Week-1 (Sample-1): week-1/week-1.md
     - Week-2 (Sample-2): week-2/week-2.md
-    - Week-3 (Sample-3): week-3/week-3.md
-    - Week-4 (Sample-4): week-4/week-4.md
-    - Week-5 (Sample-5): week-5/week-5.md
-    - Week-6 (Sample-6): week-6/week-6.md
-    - Week-7 (Sample-7): week-7/week-7.md
-    - Week-8 (Midterm): week-8/week-8-midterm.md
-    - Week-9 (Sample-9): week-9/week-9.md
-    - Week-10 (Sample-10): week-10/week-10.md 
-    - Week-11 (Sample-11): week-11/week-11.md 
-    - Week-12 (Sample-12): week-12/week-12.md
-    - Week-13 (Sample-13): week-13/week-13.md
-    - Week-14 (Sample-14): week-14/week-14.md
-    - Week-15 (Sample-15): week-15/week-15.md
-    - Week-16 (Final): week-16/week-16-final.md
+    
   - License: license.md
   - Resume: resume/index.md
   - Changelog: changelog/index.md
